@@ -6,7 +6,8 @@ MarkupSafe==1.1.1
 Werkzeug==0.15.5
 scipy>=0.15.1
 scikit-learn==0.22.2.post1
-numpy >= 1.11.0.
+cython>=0.28.5
+numpy >= 1.13.3
 matplotlib>=1.4.3
 pandas>=0.19
 streamlit
