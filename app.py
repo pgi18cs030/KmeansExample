@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
-model = pickle.load(open('kmeanscluster.pkl', 'rb')) 
+model = pickle.load(open('my_model.pkl', 'rb')) 
 # Feature Scaling
 dataset = pd.read_csv('Social_Network_Ads.csv')
 # Extracting independent variable:
