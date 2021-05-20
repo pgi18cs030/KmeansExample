@@ -1,6 +1,7 @@
 import streamlit as st 
 from PIL import Image
 import pickle
+import numpy as np
 import pandas as pd
 st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pickled model
